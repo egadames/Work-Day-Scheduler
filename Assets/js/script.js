@@ -29,13 +29,13 @@ for(i=9; i <= 17; i++){
     timeTenses(i);
 
     // This creates a div that contains the row within the container
-    var divEl = $("<div>");
+    var rowEl = $("<div>");
     // This add the class so it can be identified in the CSS style file.
-    divEl.addClass("time-block row");
+    rowEl.addClass("time-block row");
     // This appends the time, text area, and button to the div created.
-    divEl.append(pEl,inputEl,buttonEl);
-    // This appends the divEl to the container class
-    $(".container").append(divEl);
+    rowEl.append(pEl,inputEl,buttonEl);
+    // This appends the rowEl to the container class
+    $(".container").append(rowEl);
 }
 
 // This is the event listener for the button
