@@ -1,8 +1,8 @@
 // Variable to display current date
-var today = moment().format('dddd, MMMM Do, YYYY');
+var date = moment().format('MMMM Do YYYY, h:mm:ss a');
 
 // Logs time to Jumbotron area
-$("#currentDay").text(today);
+$("#currentDay").text(date);
 
 for(i=9; i <= 17; i++){
     //grab the local storage array

@@ -1,46 +1,41 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Project Title
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+Homework 5 - Work Day Scheduler by Erik Adames
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+## Location of URLs
 
-## User Story
+This is the link to the github repo:
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+https://github.com/egadames/hw5
 
-## Acceptance Criteria
+This is the link to the live website:
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+https://egadames.github.io/hw5/
 
-The following animation demonstrates the application functionality:
+### Description
 
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
+- The app is a website loads a Work Day Planner
 
-## Review
+- The planner contains timeblocks for the current workday. It contains the current date and time at the top.
 
-You are required to submit the following for review:
+- The timeblocks are highlighted by different colors depending if it is the past, present or future.
 
-* The URL of the deployed application.
+- The middle timeblock is an text area that allows user to enter events and once the save button is clicked it is sent into local storage.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+- This allows the user to refresh and the even will still be inside the text box.
 
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+### Technologies
+
+- The website uses HTML, CSS and Jquery.
+
+### Challenges
+
+- This app was of medium challenge as a lot of the styling was already provided in the CSS file. So it was mostly trying to get the classes to matchup so the styling to take effect.
+
+- The most difficult issue were trying to make the event listener work properly. There was some issues with making the code work on each textarea and locating the text area that was updated.
+
+- By the end I was able to get a good grasp of using Jquery and how to create the HTML elements with a JS file. Also, got a good understanding of how to make the event listener work and load into local storage
+
+### Screenshot
+
+![Dayplanner](./Assets/screenshot.JPG)
